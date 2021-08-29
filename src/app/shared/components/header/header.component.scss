@@ -1,5 +1,5 @@
 .header {
-  min-width: 1155px;
+  min-width: 1168px;
   height: 70px;
   background-color: #c4c4c4;
   display: flex;
@@ -95,6 +95,7 @@
       padding: 6px 10px;
       margin: 0 10px;
       transition: 0.4s;
+      min-width: 104px;
       a {
         color: #ffff;
       }
@@ -103,9 +104,6 @@
     .link-item-campaign:hover {
       background: #0ef59d;
       cursor: pointer;
-      a {
-        color: #ffff;
-      }
     }
   }
 

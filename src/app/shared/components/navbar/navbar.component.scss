@@ -2,9 +2,8 @@
 .nav-bar {
   background: url('../../../../assets/images/together-2450090_19202.png') no-repeat center center;
   background-size: cover;
-  background-position: center;
   width: 100vw;
-  min-width: 1155px;
+  min-width: 1168px;
   height: 335px;
   display: flex;
   flex-direction: column;
@@ -49,9 +48,18 @@
 
 @media only screen and (min-width: 1155px) {
   .nav-bar {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    height: 385px;
+  }
+}
+
+@media only screen and (min-width: 1255px) {
+  .nav-bar {
+    height: 435px;
+  }
+}
+
+@media only screen and (min-width: 1355px) {
+  .nav-bar {
+    height: 485px;
   }
 }
