@@ -1,7 +1,10 @@
 
 .nav-bar {
-  background: url('../../../../assets/images/together-2450090_19202.png');
-  min-width: 1065px;
+  background: url('../../../../assets/images/together-2450090_19202.png') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  min-width: 1155px;
   height: 335px;
   display: flex;
   flex-direction: column;
@@ -34,12 +37,21 @@
   }
 
   .nav-bar-btn:hover {
-    background: #10e895;
+    background: #0ef59d;
   }
 
   .nav-bar-btn a {
     font-size: 16px;
     color: #ffffff;
     padding: 5px 0;
+  }
+}
+
+@media only screen and (min-width: 1155px) {
+  .nav-bar {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }

@@ -1,5 +1,5 @@
 .header {
-  min-width: 1065px;
+  min-width: 1155px;
   height: 70px;
   background-color: #c4c4c4;
   display: flex;
@@ -11,6 +11,10 @@
     align-items: center;
     .logo-link {
       color: #ffff;
+      transition: 0.3s;
+    }
+    .logo-link:hover {
+      color: rgb(99, 99, 99);
     }
 
     span {
@@ -46,6 +50,16 @@
 
     .search-icon {
       display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #3c3c3c;
+      transition: 0.3s;
+      border-radius: 50%;
+      padding: 15px;
+    }
+    .search-icon:hover {
+      background-color: #969696;
+      padding: 15px;
     }
 
   }
@@ -58,7 +72,17 @@
     .link-item {
       display: flex;
       justify-content: center;
+      padding: 7px 20px;
+      border-radius: 8px;
+      border: 1px solid transparent;
+      transition: 0.2s;
     }
+
+    .link-item:hover {
+      background-color: #0acf83;
+      border-color: black;
+    }
+
     a {
       color: #3c3c3c;
     }
@@ -87,10 +111,10 @@
 
   .links span:first-child,
   .links span:nth-child(3) {
-    margin: 0 15px;
+    margin: 0 5px;
   }
 
   .links span:nth-child(2) {
-    min-width: 100px;
+    min-width: 140px;
   }
 }
