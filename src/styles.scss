@@ -6,12 +6,18 @@
 }
 
 html, body {
-  height: 100%;
+  margin: 0;
+  font-family: 'Comfortaa', sans-serif;
 }
 
 body {
-  margin: 0;
-  font-family: 'Comfortaa', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-appearance: none;
+  appearance: none;
+  width: fit-content;
+  width: 100vw;
+
+  overflow-x: auto;
 }
 
 a {
