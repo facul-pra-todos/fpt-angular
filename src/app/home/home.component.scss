@@ -1,0 +1,28 @@
+.list-students {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    div {
+        display: flex;
+        margin: 30px 10px 10px 0;
+        width: 22%;
+
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .list-students {
+        div {
+            width: 32%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .list-students {
+        div {
+            width: 49%;
+        }
+    }
+}
