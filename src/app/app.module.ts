@@ -9,6 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { EndPageSpacerComponent } from './shared/components/end-page-spacer/end-page-spacer.component';
+import { StartPageSpacerComponent } from './shared/components/start-page-spacer/start-page-spacer.component';
+import { ContentWrapperComponent } from './shared/components/content-wrapper/content-wrapper.component';
+import { CampaignCardComponent } from './shared/components/campaign-card/campaign-card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    EndPageSpacerComponent,
+    StartPageSpacerComponent,
+    ContentWrapperComponent,
+    CampaignCardComponent
   ],
   imports: [
     BrowserModule,

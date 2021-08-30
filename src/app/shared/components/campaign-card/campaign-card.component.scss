@@ -1,0 +1,63 @@
+.student-card {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 375px;
+  max-width: 450px;
+  height: 500px;
+  .card-title {
+    height: 125px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px 4px 0 0;
+    background-color: #0acf83;
+    span {
+      padding: 16px;
+      font-size: 20px;
+    }
+    .card-monthly-value {
+      color: white;
+    }
+  }
+
+  .card-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 10px 16px;
+    background-color: #969696;
+  }
+
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 125px;
+    padding: 10px 16px;
+    border-radius: 0 0 4px 4px;
+    background-color: #0acf83;
+    .footer-history {
+      color: white;
+    }
+    .footer-more {
+      background-color: #969696;
+      padding: 5px 10px;
+      border-radius: 10px;
+      border: 1px solid black;
+      transition: 0.3s;
+    }
+    .footer-more:hover {
+      background-color: #636363;
+      cursor: pointer;
+    }
+  }
+
+}
+::ng-deep .mat-card-header-text {
+    margin: 0 !important;
+}

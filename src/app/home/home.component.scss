@@ -1,30 +1,28 @@
-.header {
-
-  .example-label {
-    display: table-cell;
-    font-size: 14px;
-    margin-left: 8px;
-    min-width: 120px;
-  }
-
-  .example-button-row {
-    display: table-cell;
-    width: 490px;
-  }
-
-  .example-button-row .mat-button-base {
-    margin: 8px 8px 8px 0;
-  }
-
-  .example-flex-container {
+.list-students {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
+    margin: 10px;
+    div {
+        display: flex;
+        margin: 30px 10px 10px 0;
+        width: 22%;
 
-  .example-button-container {
-    display: flex;
-    justify-content: center;
-    width: 120px;
-  }
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .list-students {
+        div {
+            width: 32%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .list-students {
+        div {
+            width: 49%;
+        }
+    }
 }
